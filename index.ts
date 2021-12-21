@@ -1,8 +1,3 @@
-/*
- * @Author: 汤启民
- * @Date: 2021-12-15 16:40:15
- * @Description: YpRouter实现
- */
 
 import {
   RouterConfig,
@@ -18,7 +13,7 @@ import {
   validateRoute,
 } from "./utils";
 
-export default class YpRouter {
+export default class WeappRouter {
   /** 路由表 */
   private routes: Route[] = [];
 
