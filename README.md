@@ -7,7 +7,7 @@
 #### 定义路由
 
     // src/router/routes.ts
-    import { Route } from '../lib/YpRouter/type'
+    import { Route } from 'WeappRouter/type'
 
     const routes: Route[] = [
       {
