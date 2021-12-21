@@ -1,11 +1,3 @@
-/*
- * @Author: 汤启民
- * @Date: 2021-12-15 16:49:28
- * @Description: 路由相关的类型声明
- * @LastEditTime: 2021-12-16 15:52:47
- * @LastEditors: Please set LastEditors
- * @FilePath: \yp-mini\src\router\core\type.d.ts
- */
 
 /** 单个页面的配置 */
 export interface Route {
