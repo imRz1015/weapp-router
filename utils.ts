@@ -1,12 +1,3 @@
-/*
- * @Author: 汤启民
- * @Date: 2021-12-15 17:07:27
- * @Description:
- * @LastEditTime: 2021-12-16 15:24:45
- * @LastEditors: Please set LastEditors
- * @FilePath: \yp-mini\src\router\core\utils.ts
- */
-
 import { Route, UrlParams } from './type'
 
 /** 将routes平铺为一维数组 */
