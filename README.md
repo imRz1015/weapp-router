@@ -51,7 +51,7 @@
     Page({
     
       onClick(){
-        router.push({name:'member-center',query:{someQuery:'abc'someType:2}})
+        router.push({name:'member-center',query:{someQuery:'abc',someType:2}})
       }
     
     })
