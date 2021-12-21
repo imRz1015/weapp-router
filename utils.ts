@@ -29,15 +29,15 @@ export function parseQuery(obj) {
 /** 校验路由 */
 export function validateRoute(name: string, query: UrlParams, targetRoute: Route, type = 'push'): string {
   if (!name) {
-    throw new Error(`YpRouter.${type}: name is required`)
+    throw new Error(`Router.${type}: name is required`)
   }
   if (!targetRoute) {
-    throw new Error(`YpRouter.${type}: Can not find route '${name}' , did you registered in routes ?`)
+    throw new Error(`Router.${type}: Can not find route '${name}' , did you registered in routes ?`)
   }
   let url = `/${targetRoute.path}`
   if (query) {
     if (targetRoute.isTabBar) {
-      throw new Error(`YpRouter.${type}: Route '${name}' is a tabBar page, it will not be allowed to get parameters`)
+      throw new Error(`Router.${type}: Route '${name}' is a tabBar page, it will not be allowed to get parameters`)
     }
     url = `${url}?${parseQuery(query)}`
   }
